@@ -17,14 +17,19 @@ A Django-based web application for managing blood donations and connecting donor
    git clone https://github.com/syeed00/blood-bank-system.git
    cd blood-bank-system
 2. Create and activate a virtual environment:
+   ```bash
     python -m venv venv
     venv\Scripts\activate  # On Windows
     source venv/bin/activate  # On Linux/Mac
 3. Install dependencies:
+   ```bash
     pip install -r requirements.txt
 4. Apply migrations:
+   ```bash
     python manage.py migrate
-5. Run the development server
+6. Run the development server
+   ```bash
     python manage.py runserver
 6. Open in browser
+    ```bash
     http://127.0.0.1:8000/
